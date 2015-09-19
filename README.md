@@ -2,7 +2,8 @@
 This is an example client application using the React Router for consuming a JSON API. It's designed to work with the [Pizza Repo API](https://github.com/stevekinney/pizza).
 
 ### UP & RUNNING
-- clone the repo and run `npm install`.
+- clone the repo and run `git checkout getting-started`
+- to install the node modules run `npm install`.
 - run `npm start` and visit http://localhost:8080/
 
 If you see 'Hello, World' in the browser, you're good to go!
