@@ -13,3 +13,7 @@ p {
 .thumbnail {
   border-radius: 0px; 
 }
+
+#btn-back {
+  margin-bottom: 10px; 
+}
