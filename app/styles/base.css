@@ -1,3 +1,7 @@
 body {
   margin: 30px;
 }
+
+.navbar {
+  border-radius: 0px;
+}
