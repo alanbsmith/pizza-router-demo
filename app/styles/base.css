@@ -2,6 +2,14 @@ body {
   margin: 30px;
 }
 
+p {
+  margin-bottom: 0px;
+}
+
 .navbar {
   border-radius: 0px;
+}
+
+.thumbnail {
+  border-radius: 0px; 
 }
