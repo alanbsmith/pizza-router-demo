@@ -1,6 +1,8 @@
 import React from 'react/addons';
 import { Router, Route, Link } from 'react-router';
 
+import SearchForm from './search-form'; 
+
 let Pizzerias = React.createClass({
   getInitialState() {
     return({locations: []})
@@ -15,7 +17,9 @@ let Pizzerias = React.createClass({
       }.bind(this)
     })
   },
-
+  handleSearch(data) {
+    this.setState({locations: data});
+  },
   render() {
     let pizzerias = this.state.locations.map(function(pizzeria, index) {
       let location = pizzeria.properties
@@ -33,7 +37,14 @@ let Pizzerias = React.createClass({
     return(
       <div>
         <h3>Pizzerias</h3>
-          {pizzerias}
+          <div id='content'>
+            <div className='col-xs-3'>
+              <SearchForm searchInfo={this.handleSearch}/>
+            </div>
+            <div className='col-xs-9'>
+              {pizzerias}
+            </div>
+          </div>
       </div>
     )
   }
