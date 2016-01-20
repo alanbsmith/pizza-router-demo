@@ -13,5 +13,5 @@ If you see 'Hello, World' in the browser, you're good to go!
 - run `rackup` and visit 'http://localhost:9292/api/v1/pizzerias'
 
 If you get back some JSON, you're all set!
-There's also thorough documentation on using the API [here](https://github.com/stevekinney/pizza/blob/master/using_the_api.md).
+There's also thorough documentation on using the API [here](https://github.com/stevekinney/pizza/blob/master/docs/using_the_api.md).
 
